@@ -1,0 +1,15 @@
+.header {
+  width: 100%;
+  height: 8rem;
+  padding: 1.6rem 8rem;
+  background-color: #79b791;
+  color: #edf4ed;
+}
+
+header a {
+  color: #edf4ed;
+}
+
+.header-nav {
+  justify-content: space-between;
+}
