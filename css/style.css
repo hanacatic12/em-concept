@@ -4,6 +4,7 @@
   padding: 2.4rem 8rem;
   background-color: #79b791;
   color: #edf4ed;
+  font-weight: bold;
 }
 
 .nav-a:link,
@@ -17,5 +18,16 @@
 
 .nav-a:hover {
   color: #c9e4c9;
-  text-decoration: underline;
+}
+
+/* ---HAMBURGER--- */
+.hamburger {
+  display: none;
+  height: 3rem;
+  width: 3rem;
+}
+
+.hamburger-close {
+  height: 3rem;
+  width: 3rem;
 }

@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .header {
+    padding-left: 6.4rem;
+    padding-right: 6.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding-left: 4.8rem;
+    padding-right: 4.8rem;
+  }
+}
