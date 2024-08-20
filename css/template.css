@@ -121,3 +121,12 @@ a:hover {
 .hidden {
   display: none !important;
 }
+
+.heading-primary {
+  font-size: 4.8rem;
+  font-weight: bold;
+}
+
+.heading-secondary {
+  font-size: 3rem;
+}
