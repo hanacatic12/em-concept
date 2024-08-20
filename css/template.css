@@ -70,6 +70,10 @@ body {
 }
 
 /* ---MARGINS--- */
+.margin-bottom-tiny {
+  margin-bottom: 0.8rem;
+}
+
 .margin-bottom-sm {
   margin-bottom: 1.6rem;
 }
