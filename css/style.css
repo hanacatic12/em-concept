@@ -63,11 +63,19 @@
   height: 100%;
 }
 
+.img-wrapper {
+  justify-self: end;
+}
+
 .landing-page-img {
   height: 54rem;
   width: 44rem;
   border-radius: 25px;
   justify-self: end;
+}
+
+.img-shadow {
+  display: none;
 }
 
 /* --- FOOTER --- */
