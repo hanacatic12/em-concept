@@ -134,3 +134,21 @@ a:hover {
 .heading-secondary {
   font-size: 3rem;
 }
+
+.container {
+  max-width: 1000px;
+}
+
+.container-center {
+  margin: 0 auto;
+}
+
+.container-text {
+  margin-top: 6.4rem;
+  margin-bottom: 6.4rem;
+}
+
+.plain-text {
+  letter-spacing: 0.02em;
+  line-height: 1.6;
+}

@@ -78,6 +78,28 @@
   display: none;
 }
 
+.page-title {
+  margin-bottom: 3.2rem;
+}
+
+.contact-card {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 4.8rem;
+  border-radius: 25px;
+  background-color: #c9e4c9;
+}
+
+.contact-card-content {
+  justify-content: flex-start;
+}
+
+.generic-profile-picture {
+  border-radius: 50%;
+  height: 8rem;
+  width: 8rem;
+}
+
 /* --- FOOTER --- */
 .footer {
   width: 100%;
