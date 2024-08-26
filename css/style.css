@@ -1,4 +1,5 @@
 .header {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 100%;
   height: 8rem;
   padding: 2.4rem 8rem;
@@ -78,8 +79,33 @@
   display: none;
 }
 
+.hero-section {
+  height: 100vh;
+  background-image: url("../img/Oak\ Marcant\ 5�\ White\ Woca222.jpeg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.main-heading-hero {
+  font-family: "DM Serif Text";
+  font-weight: normal;
+}
+
+.heading-hero {
+  color: #edf4ed;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.hero-text {
+  margin-top: 12.8rem;
+  margin-left: 8rem;
+  max-width: 800px;
+}
+
+/* --- CONTENT --- */
 .page-title {
-  margin-bottom: 3.2rem;
+  margin-bottom: 4.8rem;
 }
 
 .contact-card {
