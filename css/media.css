@@ -152,6 +152,18 @@
   .hero-text {
     margin-left: 6.4rem;
   }
+
+  .bullet-points {
+    display: block;
+  }
+
+  .bullet-points-container {
+    margin: 0 auto;
+  }
+
+  .bullet-points-description {
+    margin-bottom: 6.4rem;
+  }
 }
 
 @media (max-width: 320px) {
