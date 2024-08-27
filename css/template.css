@@ -156,3 +156,20 @@ a:hover {
   letter-spacing: 0.02em;
   line-height: 1.6;
 }
+
+.button {
+  display: inline-block;
+  background-color: #79b791;
+  border: 1px solid #79b791;
+  color: #edf4ed !important;
+  font-family: "Montserrat";
+  border-radius: 25px;
+  font-size: 1.6rem;
+  padding: 1.6rem 3.2rem;
+  /*box-shadow: none;*/
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  background-color: #80c199;
+}
