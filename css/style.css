@@ -91,6 +91,7 @@
 .main-heading-hero {
   font-family: "DM Serif Text";
   font-weight: normal;
+  max-width: 600px;
 }
 
 .heading-hero {
@@ -146,6 +147,76 @@
   border-radius: 50%;
   height: 8rem;
   width: 8rem;
+}
+
+/* ---SLIDER--- */
+.slider-img {
+  max-height: 200px;
+  border-radius: 25px;
+  transform: scale(1.5);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+}
+
+.slider {
+  background-color: #79b791;
+  color: #edf4ed;
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 24px;
+  padding-left: 86px;
+  border-radius: 25px;
+
+  display: flex;
+  align-items: center;
+  gap: 86px;
+
+  position: relative;
+}
+
+.type-btn {
+  display: inline-block;
+  background-color: #edf4ed;
+  padding: 1.2rem 2.4rem;
+  border-radius: 25px;
+}
+
+.type-btn:hover {
+  background-color: #e0e6e0;
+}
+
+.flooring-type {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.type-text {
+  font-size: 1.8rem;
+}
+
+.arrow-btn {
+  background-color: #fff;
+  border: none;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  border-radius: 50%;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-left {
+}
+
+.btn-right {
+}
+
+.arrow-btn-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  stroke: #301014;
 }
 
 /* --- FOOTER --- */
