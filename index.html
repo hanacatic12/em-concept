@@ -152,8 +152,12 @@
       <section id="button-target">
         <div class="container container-center">
           <div class="slider">
-            <img src="img/Solid Oak Natur_NEW.jpg" class="slider-img" />
-            <blockquote class="slider-blockquote">
+            <img
+              src="img/Solid Oak Natur_NEW.jpg"
+              class="slider-img active-slide"
+              data-slide="0"
+            />
+            <blockquote class="slider-blockquote active-slide" data-slide="0">
               <p class="flooring-type margin-bottom-sm">MASIVNI PODOVI</p>
               <p class="type-text margin-bottom-xsm">
                 Ni jedan drugi pod ne odražava tako vjerno prirodna svojstva i
@@ -162,6 +166,51 @@
               </p>
               <a class="type-btn">Vidi više</a>
             </blockquote>
+
+            <img
+              src="img/Solid Oak Natur_NEW.jpg"
+              class="slider-img"
+              data-slide="1"
+            />
+            <blockquote class="slider-blockquote" data-slide="1">
+              <p class="flooring-type margin-bottom-sm">INŽENJERSKI PODOVI</p>
+              <p class="type-text margin-bottom-xsm">
+                Popularna alternativa podovima od punog drveta, veće dimenzijske
+                stabilnosti zbog tzv. lamelirane strukture
+              </p>
+              <a class="type-btn">Vidi više</a>
+            </blockquote>
+
+            <img
+              src="img/Solid Oak Natur_NEW.jpg"
+              class="slider-img"
+              data-slide="2"
+            />
+            <blockquote class="slider-blockquote" data-slide="2">
+              <p class="flooring-type margin-bottom-sm">VINIL PODOVI</p>
+              <p class="type-text margin-bottom-xsm">
+                Izrađeni od kalcijevog karbonata i plastičnih stabilizatora,
+                svojim detaljima i strukturom neodoljivo podsjećaju na drvo i
+                beton.
+              </p>
+              <a class="type-btn">Vidi više</a>
+            </blockquote>
+
+            <img
+              src="img/Solid Oak Natur_NEW.jpg"
+              class="slider-img"
+              data-slide="3"
+            />
+            <blockquote class="slider-blockquote" data-slide="3">
+              <p class="flooring-type margin-bottom-sm">DEKING ZA TERASE</p>
+              <p class="type-text margin-bottom-xsm">
+                WPC decking je vrsta terasnog poda napravljena od kombinacije
+                drveta i polimera, što ga čini izdržljivim i otpornim na sve
+                vremenske prilike.
+              </p>
+              <a class="type-btn">Vidi više</a>
+            </blockquote>
+
             <button class="arrow-btn btn-left">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -195,11 +244,10 @@
               </svg>
             </button>
             <div class="dots">
-              <button class="dot dot-fill">&nbsp;</button>
-              <button class="dot">&nbsp;</button>
-              <button class="dot">&nbsp;</button>
-              <button class="dot">&nbsp;</button>
-              <button class="dot">&nbsp;</button>
+              <button class="dot dot-fill" data-slide="0">&nbsp;</button>
+              <button class="dot" data-slide="1">&nbsp;</button>
+              <button class="dot" data-slide="2">&nbsp;</button>
+              <button class="dot" data-slide="3">&nbsp;</button>
             </div>
           </div>
         </div>
@@ -234,5 +282,6 @@
     </footer>
     <div class="dimmed-background hidden"></div>
     <script src="main.js"></script>
+    <script src="slider.js"></script>
   </body>
 </html>

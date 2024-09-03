@@ -249,6 +249,15 @@
   background-color: #79b791;
 }
 
+.slider-img,
+.slider-blockquote {
+  display: none;
+}
+
+.active-slide {
+  display: block;
+}
+
 /* --- FOOTER --- */
 .footer {
   width: 100%;
