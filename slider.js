@@ -6,9 +6,23 @@ const dots = document.querySelectorAll(".dot");
 let current = 0;
 
 function updateSlider(index) {
+  /*
   slides.forEach((slide) => {
     slide.classList.remove("active-slide");
     if (parseInt(slide.dataset.slide) === index) {
+      slide.classList.add("active-slide");
+    }
+  });
+  */
+  slides.forEach((slide) => {
+    slide.style.display = "none";
+    slide.style.opacity = "0";
+    slide.classList.remove("active-slide");
+    if (parseInt(slide.dataset.slide) === index) {
+      slide.style.display = "block";
+      setTimeout(() => {
+        slide.style.opacity = "1";
+      }, 10);
       slide.classList.add("active-slide");
     }
   });
@@ -36,3 +50,5 @@ dots.forEach((dot, index) => {
     updateSlider(current);
   });
 });
+
+updateSlider(current);
