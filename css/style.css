@@ -263,9 +263,9 @@
 
 /* ---PROIZVODI SECTION--- */
 
-.grid--1-3rd {
-  grid-template-columns: 1fr 2fr;
-  gap: 12.8rem;
+.grid--1-5th {
+  grid-template-columns: 1fr 4fr;
+  gap: 6.4rem;
 }
 
 .subtype-menu {
@@ -279,10 +279,10 @@
   border-radius: 25px;
   background-color: #edf4ed;
   color: #301014;
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: bold;
-  padding-top: 2.4rem;
-  padding-bottom: 2.4rem;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
   padding-left: 1.6rem;
   width: 100%;
   text-align: left;
@@ -290,6 +290,36 @@
 
 .subtype-btn:hover {
   background-color: #c9e4c9;
+}
+
+.subtype-container {
+  background-color: #c9e4c9;
+  border-radius: 25px;
+  margin-top: 3.2rem;
+  margin-bottom: 3.2rem;
+  padding: 2.4rem;
+  padding-left: 6.4rem;
+  margin-right: 2.4rem;
+}
+
+.subtype-container-grid {
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.subtype-img {
+  max-height: 400px;
+  border-radius: 25px;
+}
+
+.subtype-desc {
+  font-size: 1.8rem;
+}
+
+.subtype-list {
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-left: 3.2rem;
 }
 
 /* --- FOOTER --- */
