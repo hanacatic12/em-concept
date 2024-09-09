@@ -296,9 +296,10 @@
   background-color: #c9e4c9;
   border-radius: 25px;
   margin-top: 3.2rem;
-  margin-bottom: 3.2rem;
+  margin-bottom: 4.8rem;
   padding: 2.4rem;
   padding-left: 6.4rem;
+  padding-right: 6.4rem;
   margin-right: 2.4rem;
 }
 
@@ -332,11 +333,11 @@
 }
 
 .footer-a {
-  color: #edf4ed;
+  color: #edf4ed !important;
 }
 
 .footer-a:hover {
-  color: #c9e4c9;
+  color: #c9e4c9 !important;
 }
 
 .heading-footer {
@@ -351,4 +352,9 @@
 .icon:hover {
   cursor: pointer;
   color: #c9e4c9;
+}
+
+.address,
+.phone {
+  font-size: 1.8rem;
 }
