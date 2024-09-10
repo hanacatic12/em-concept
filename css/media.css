@@ -20,6 +20,12 @@
   .subtype-img {
     max-height: 350px;
   }
+
+  .o-nama-container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (max-width: 994px) {
@@ -55,6 +61,12 @@
     display: block;
     max-height: 400px;
     /*margin-top: 3.2rem;*/
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .o-nama-container {
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -182,6 +194,12 @@
   .subtype-container {
     margin-left: 2.4rem;
   }
+
+  .o-nama-container {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (max-width: 554px) {
@@ -202,6 +220,12 @@
 
   .subtype-img {
     max-height: 300px;
+  }
+
+  .o-nama-container {
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -252,6 +276,12 @@
 
   .subtype-img {
     max-height: 250px;
+  }
+
+  .o-nama-container {
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
