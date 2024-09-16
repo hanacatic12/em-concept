@@ -26,6 +26,10 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .slider-heading {
+    margin-left: 3.2rem;
+  }
 }
 
 @media (max-width: 994px) {
