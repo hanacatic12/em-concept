@@ -324,11 +324,12 @@
 }
 
 .subtype-btn:hover {
-  background-color: #c9e4c9;
+  background-color: #79b791;
+  color: #edf4ed;
 }
 
 .subtype-container {
-  background-color: #c9e4c9;
+  background-color: #dae8da;
   border-radius: 25px;
   margin-top: 3.2rem;
   margin-bottom: 4.8rem;
