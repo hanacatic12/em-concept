@@ -167,6 +167,7 @@ a:hover {
 .plain-text {
   letter-spacing: 0.02em;
   line-height: 1.6;
+  font-size: 1.8rem;
 }
 
 .button {
