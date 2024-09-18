@@ -159,6 +159,10 @@ a:hover {
   max-width: 1000px;
 }
 
+.container-bigger {
+  max-width: 1500px;
+}
+
 .container-center {
   margin: 0 auto;
 }
