@@ -323,7 +323,8 @@
   text-align: left;
 }
 
-.subtype-btn:hover {
+.subtype-btn:hover,
+.subtype-btn-active {
   background-color: #79b791;
   color: #edf4ed;
 }
@@ -351,12 +352,14 @@
 
 .subtype-desc {
   font-size: 1.8rem;
+  /*font-weight: 500;*/
 }
 
 .subtype-list {
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
   padding-left: 3.2rem;
+  color: #51291e;
 }
 
 /* --- FOOTER --- */

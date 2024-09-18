@@ -3,7 +3,15 @@ function showSubcategory(category) {
     product.classList.add("hidden");
   });
 
+  document.querySelectorAll(".subtype-btn").forEach(function (button) {
+    button.classList.remove("subtype-btn-active");
+  });
+
   document.getElementById("category-" + category).classList.remove("hidden");
+
+  document
+    .querySelector(".subtype-btn:nth-child(" + category + ")")
+    .classList.add("subtype-btn-active");
 }
 
 window.onload = function () {
