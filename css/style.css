@@ -15,7 +15,7 @@
 }
 
 .footer-logo {
-  height: 90px;
+  height: 85px;
 }
 
 .nav-a:link,
@@ -404,6 +404,10 @@
 
 .heading-footer {
   font-size: 2.4rem;
+}
+
+.name-footer {
+  font-size: 2rem;
 }
 
 .icon {
