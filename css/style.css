@@ -1,17 +1,20 @@
 .header {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 100%;
-
-  padding: 1.6rem 8rem;
+  /*height: 8rem;*/
+  padding: 2.4rem 8rem;
   background-color: #79b791;
   color: #edf4ed;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
   font-weight: bold;
-  /*height: ;*/
 }
 
 .logo {
   height: 60px;
+}
+
+.mini-logo-header {
+  height: 40px;
 }
 
 .footer-logo {
@@ -25,6 +28,7 @@
 
 .header-nav {
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-a:hover {
@@ -377,6 +381,26 @@
 }
 
 /* --- FOOTER --- */
+footer {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  align-items: stretch;
+}
+
+.map {
+  flex-grow: 1;
+
+  min-height: 100%;
+  max-width: 400px;
+  display: flex;
+}
+
+iframe {
+  height: 100% !important;
+  border: 0;
+}
+
 .footer {
   width: 100%;
   background-color: #79b791;
