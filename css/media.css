@@ -377,6 +377,10 @@
   .contact-person-title {
     font-size: 2rem;
   }
+
+  .name-header {
+    display: none;
+  }
 }
 
 @media (max-width: 320px) {
