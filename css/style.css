@@ -35,6 +35,30 @@
   color: #c9e4c9;
 }
 
+.bullet-points-section {
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+  background-color: #dff0e4;
+  position: relative;
+  z-index: 1;
+}
+
+.bullet-points-section::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  /*background-color: #d4e7d9;*/
+  height: 135%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.slider-section {
+  position: relative;
+  z-index: 2;
+}
+
 /* ---HAMBURGER--- */
 .hamburger {
   display: none;
@@ -118,6 +142,13 @@
   max-width: 800px;
 }
 
+.bullet-points {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  column-gap: 8rem;
+}
+
 .bullet-points-container {
   max-width: 280px;
   text-align: center;
@@ -140,7 +171,7 @@
 }
 
 .bullet-points-description {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #51291e;
   font-weight: 450;
 }
@@ -192,7 +223,7 @@
 
 /* ---SLIDER--- */
 #button-target {
-  padding-top: 2.4rem;
+  padding-top: 6rem;
 }
 
 .large-section-height {
