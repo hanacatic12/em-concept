@@ -334,10 +334,12 @@
     margin-bottom: 6.4rem;
   }
 
+  /*
   .slider {
     margin-left: 2.4rem;
     margin-right: 2.4rem;
   }
+    */
 
   .slider-img {
     max-height: 250px;
@@ -378,8 +380,22 @@
     font-size: 2rem;
   }
 
+  .contact-container {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+
+  .e-mail {
+    word-break: break-word;
+  }
+
   .name-header {
     display: none;
+  }
+
+  .footer {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 }
 
