@@ -221,6 +221,11 @@
   margin-top: 8rem;
 }
 
+.o-nama-img {
+  border-radius: 25px;
+  max-height: 800px;
+}
+
 /* ---SLIDER--- */
 #button-target {
   padding-top: 6rem;

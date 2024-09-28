@@ -29,6 +29,10 @@
     margin-right: auto;
   }
 
+  .o-nama-img {
+    max-height: 600px;
+  }
+
   .slider-heading {
     margin-left: 3.2rem;
   }
@@ -86,6 +90,10 @@
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .o-nama-img {
+    max-height: 500px;
   }
 }
 
@@ -155,6 +163,10 @@
 
   .nav-a:hover {
     color: #edf4ed;
+  }
+
+  .o-nama-img {
+    max-width: 400px;
   }
 
   .footer-elements {
@@ -344,6 +356,10 @@
     max-width: 320px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .o-nama-img {
+    max-width: 300px;
   }
 
   .contact-data {
