@@ -21,6 +21,10 @@
   height: 85px;
 }
 
+a h2 {
+  color: #edf4ed;
+}
+
 .nav-a:link,
 .nav-a:visited {
   color: #edf4ed;
