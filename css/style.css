@@ -1,3 +1,15 @@
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal-active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
 .header {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 100%;
@@ -41,22 +53,26 @@ a h2 {
 
 .bullet-points-section {
   padding-top: 14rem;
-  padding-bottom: 14rem;
-  background-color: #dff0e4;
+  padding-bottom: 12rem;
+  /* background-color: #dff0e4; */
   position: relative;
   z-index: 1;
 }
+
+/*
 
 .bullet-points-section::after {
   content: "";
   position: absolute;
   z-index: -1;
-  /*background-color: #d4e7d9;*/
+  background-color: #d4e7d9;
   height: 135%;
   top: 0;
   left: 0;
   right: 0;
 }
+
+*/
 
 .slider-section {
   position: relative;
@@ -232,7 +248,7 @@ a h2 {
 
 /* ---SLIDER--- */
 #button-target {
-  padding-top: 6rem;
+  padding-top: 8rem;
 }
 
 .large-section-height {
