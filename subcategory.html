@@ -91,26 +91,32 @@
     <section class="grid grid--1-5th subtype-menu-container">
       <aside class="subtype-menu">
         <button
-          class="subtype-btn margin-bottom-sm"
+          class="subtype-btn margin-bottom-sm subtype-btn-active"
           onclick="showSubcategory(1)"
         >
           Masivni podovi
         </button>
-        <button
-          class="subtype-btn margin-bottom-sm"
-          onclick="showSubcategory(2)"
+        <a href="gotovi_troslojni_paketi.html"
+          ><button
+            class="subtype-btn margin-bottom-sm"
+            onclick="showSubcategory(2)"
+          >
+            Gotovi troslojni parketi
+          </button></a
         >
-          Gotovi troslojni parketi
-        </button>
-        <button
-          class="subtype-btn margin-bottom-sm"
-          onclick="showSubcategory(3)"
-        >
-          Vinil podovi
-        </button>
-        <button class="subtype-btn" onclick="showSubcategory(4)">
-          Deking za terase
-        </button>
+        <a href="vinil_podovi.html">
+          <button
+            class="subtype-btn margin-bottom-sm"
+            onclick="showSubcategory(3)"
+          >
+            Vinil podovi
+          </button>
+        </a>
+        <a href="deking.html">
+          <button class="subtype-btn" onclick="showSubcategory(4)">
+            Deking za terase
+          </button>
+        </a>
       </aside>
       <main>
         <section>
@@ -354,6 +360,8 @@
               </div>
             </div>
           </div>
+
+          <!--
 
           <div id="category-2" class="products">
             <p class="heading-primary margin-top-m subtype-heading">
@@ -609,6 +617,7 @@
               </div>
             </div>
           </div>
+          -->
         </section>
       </main>
     </section>
@@ -672,6 +681,5 @@
     </footer>
     <div class="dimmed-background hidden"></div>
     <script src="main.js"></script>
-    <script src="category_processing.js"></script>
   </body>
 </html>
